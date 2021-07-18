@@ -152,3 +152,26 @@
 2021-07-18 05:28:44,658 DEBUG   HandlerThread:36976 [handler.py:handle_request():124] handle_request: stop_status
 2021-07-18 05:28:44,658 DEBUG   SenderThread:36976 [sender.py:send_request():193] send_request: stop_status
 2021-07-18 05:28:50,977 INFO    Thread-8  :36976 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_052507-2urh7wds/files/output.log
+2021-07-18 05:28:59,887 DEBUG   HandlerThread:36976 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 05:28:59,888 DEBUG   SenderThread:36976 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 05:29:10,989 INFO    Thread-8  :36976 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_052507-2urh7wds/files/output.log
+2021-07-18 05:29:14,744 DEBUG   SenderThread:36976 [sender.py:send():179] send: stats
+2021-07-18 05:29:15,116 DEBUG   HandlerThread:36976 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 05:29:15,116 DEBUG   SenderThread:36976 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 05:29:30,340 DEBUG   HandlerThread:36976 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 05:29:30,341 DEBUG   SenderThread:36976 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 05:29:33,000 INFO    Thread-8  :36976 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_052507-2urh7wds/files/output.log
+2021-07-18 05:29:45,561 DEBUG   HandlerThread:36976 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 05:29:45,562 DEBUG   SenderThread:36976 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 05:29:46,024 DEBUG   SenderThread:36976 [sender.py:send():179] send: stats
+2021-07-18 05:29:55,016 INFO    Thread-8  :36976 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_052507-2urh7wds/files/output.log
+2021-07-18 05:30:00,787 DEBUG   HandlerThread:36976 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 05:30:00,787 DEBUG   SenderThread:36976 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 05:30:16,032 DEBUG   HandlerThread:36976 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 05:30:16,032 DEBUG   SenderThread:36976 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 05:30:17,029 INFO    Thread-8  :36976 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_052507-2urh7wds/files/output.log
+2021-07-18 05:30:17,071 DEBUG   SenderThread:36976 [sender.py:send():179] send: stats
+2021-07-18 05:30:31,255 DEBUG   HandlerThread:36976 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 05:30:31,256 DEBUG   SenderThread:36976 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 05:30:38,230 INFO    Thread-12 :36976 [upload_job.py:push():137] Uploaded file /tmp/tmpzsfo2po5wandb/j91xn7fb-media/images/fake_img_0_0.png
+2021-07-18 05:30:39,041 INFO    Thread-8  :36976 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_052507-2urh7wds/files/output.log
