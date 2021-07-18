@@ -1,0 +1,75 @@
+2021-07-18 02:32:23,581 INFO    MainThread:34617 [internal.py:wandb_internal():88] W&B internal server running at pid: 34617, started at: 2021-07-18 02:32:23.580851
+2021-07-18 02:32:23,585 INFO    WriterThread:34617 [datastore.py:open_for_write():80] open: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/run-12sro2d7.wandb
+2021-07-18 02:32:23,585 DEBUG   HandlerThread:34617 [handler.py:handle_request():124] handle_request: check_version
+2021-07-18 02:32:23,588 DEBUG   SenderThread:34617 [sender.py:send():179] send: header
+2021-07-18 02:32:23,588 DEBUG   SenderThread:34617 [sender.py:send_request():193] send_request: check_version
+2021-07-18 02:32:23,823 DEBUG   SenderThread:34617 [sender.py:send():179] send: run
+2021-07-18 02:32:24,081 INFO    SenderThread:34617 [dir_watcher.py:__init__():168] watching files in: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files
+2021-07-18 02:32:24,081 INFO    SenderThread:34617 [sender.py:_start_run_threads():716] run started: 12sro2d7 with start time 1626575542
+2021-07-18 02:32:24,081 DEBUG   SenderThread:34617 [sender.py:send():179] send: summary
+2021-07-18 02:32:24,082 DEBUG   HandlerThread:34617 [handler.py:handle_request():124] handle_request: run_start
+2021-07-18 02:32:24,083 INFO    SenderThread:34617 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-18 02:32:24,090 DEBUG   HandlerThread:34617 [meta.py:__init__():39] meta init
+2021-07-18 02:32:24,090 DEBUG   HandlerThread:34617 [meta.py:__init__():53] meta init done
+2021-07-18 02:32:24,090 DEBUG   HandlerThread:34617 [meta.py:probe():210] probe
+2021-07-18 02:32:24,105 DEBUG   HandlerThread:34617 [meta.py:_setup_git():200] setup git
+2021-07-18 02:32:24,124 DEBUG   HandlerThread:34617 [meta.py:_setup_git():207] setup git done
+2021-07-18 02:32:24,125 DEBUG   HandlerThread:34617 [meta.py:_save_pip():57] save pip
+2021-07-18 02:32:24,126 DEBUG   HandlerThread:34617 [meta.py:_save_pip():71] save pip done
+2021-07-18 02:32:24,126 DEBUG   HandlerThread:34617 [meta.py:_save_conda():78] save conda
+2021-07-18 02:32:25,085 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/requirements.txt
+2021-07-18 02:32:25,086 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/wandb-summary.json
+2021-07-18 02:32:25,086 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/conda-environment.yaml
+2021-07-18 02:32:26,507 DEBUG   HandlerThread:34617 [meta.py:_save_conda():86] save conda done
+2021-07-18 02:32:26,507 DEBUG   HandlerThread:34617 [meta.py:probe():252] probe done
+2021-07-18 02:32:26,513 DEBUG   SenderThread:34617 [sender.py:send():179] send: files
+2021-07-18 02:32:26,513 INFO    SenderThread:34617 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-18 02:32:26,521 DEBUG   HandlerThread:34617 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 02:32:26,522 DEBUG   SenderThread:34617 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 02:32:27,082 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/conda-environment.yaml
+2021-07-18 02:32:27,082 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/output.log
+2021-07-18 02:32:27,083 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/wandb-metadata.json
+2021-07-18 02:32:27,143 INFO    Thread-11 :34617 [upload_job.py:push():137] Uploaded file /tmp/tmpa_8d5nu1wandb/85a93ldq-wandb-metadata.json
+2021-07-18 02:32:41,749 DEBUG   HandlerThread:34617 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 02:32:41,749 DEBUG   SenderThread:34617 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 02:32:52,598 DEBUG   SenderThread:34617 [sender.py:send():179] send: files
+2021-07-18 02:32:52,599 INFO    SenderThread:34617 [sender.py:_save_file():841] saving file media/images/fake_img_0_0.png with policy now
+2021-07-18 02:32:52,609 DEBUG   SenderThread:34617 [sender.py:send():179] send: history
+2021-07-18 02:32:52,610 DEBUG   SenderThread:34617 [sender.py:send():179] send: summary
+2021-07-18 02:32:52,613 INFO    SenderThread:34617 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-18 02:32:52,785 DEBUG   SenderThread:34617 [sender.py:send():179] send: stats
+2021-07-18 02:32:53,095 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/wandb-summary.json
+2021-07-18 02:32:53,095 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/media/images/fake_img_0_0.png
+2021-07-18 02:32:53,096 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/media
+2021-07-18 02:32:53,096 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/media/images
+2021-07-18 02:32:55,096 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/output.log
+2021-07-18 02:32:56,968 DEBUG   HandlerThread:34617 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 02:32:56,969 DEBUG   SenderThread:34617 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 02:33:12,194 DEBUG   HandlerThread:34617 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 02:33:12,194 DEBUG   SenderThread:34617 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 02:33:18,864 DEBUG   SenderThread:34617 [sender.py:send():179] send: files
+2021-07-18 02:33:18,864 INFO    SenderThread:34617 [sender.py:_save_file():841] saving file media/images/fake_img_1_0.png with policy now
+2021-07-18 02:33:18,873 DEBUG   SenderThread:34617 [sender.py:send():179] send: history
+2021-07-18 02:33:18,874 DEBUG   SenderThread:34617 [sender.py:send():179] send: summary
+2021-07-18 02:33:18,877 INFO    SenderThread:34617 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-18 02:33:19,114 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/wandb-summary.json
+2021-07-18 02:33:19,115 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/media/images/fake_img_1_0.png
+2021-07-18 02:33:19,115 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/media/images
+2021-07-18 02:33:21,116 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/output.log
+2021-07-18 02:33:23,423 DEBUG   SenderThread:34617 [sender.py:send():179] send: stats
+2021-07-18 02:33:27,423 DEBUG   HandlerThread:34617 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 02:33:27,424 DEBUG   SenderThread:34617 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 02:33:42,671 DEBUG   HandlerThread:34617 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 02:33:42,672 DEBUG   SenderThread:34617 [sender.py:send_request():193] send_request: stop_status
+2021-07-18 02:33:45,142 DEBUG   SenderThread:34617 [sender.py:send():179] send: files
+2021-07-18 02:33:45,142 INFO    SenderThread:34617 [sender.py:_save_file():841] saving file media/images/fake_img_2_0.png with policy now
+2021-07-18 02:33:45,153 DEBUG   SenderThread:34617 [sender.py:send():179] send: history
+2021-07-18 02:33:45,154 DEBUG   SenderThread:34617 [sender.py:send():179] send: summary
+2021-07-18 02:33:45,157 INFO    SenderThread:34617 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-18 02:33:46,132 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/wandb-summary.json
+2021-07-18 02:33:46,133 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/media/images/fake_img_2_0.png
+2021-07-18 02:33:46,133 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/media/images
+2021-07-18 02:33:47,133 INFO    Thread-8  :34617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210718_023222-12sro2d7/files/output.log
+2021-07-18 02:33:54,002 DEBUG   SenderThread:34617 [sender.py:send():179] send: stats
+2021-07-18 02:33:57,909 DEBUG   HandlerThread:34617 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-18 02:33:57,909 DEBUG   SenderThread:34617 [sender.py:send_request():193] send_request: stop_status

@@ -1,0 +1,24 @@
+{
+    "os": "Linux-4.15.0-20-generic-x86_64-with-glibc2.27",
+    "python": "3.9.5",
+    "heartbeatAt": "2021-07-17T17:51:59.830384",
+    "startedAt": "2021-07-17T17:51:58.511140",
+    "docker": null,
+    "gpu": "TITAN Xp",
+    "gpu_count": 4,
+    "cpu_count": 48,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/hsyang/workspace/20210715_cluster_gan/20210718_vanilla.py",
+    "codePath": "20210718_vanilla.py",
+    "git": {
+        "remote": "https://github.com/hsyang1222/cluster_gan.git",
+        "commit": "c5d250c95050cabed70a56a14bf59d522227742b"
+    },
+    "email": "hsyang1222@snu.ac.kr",
+    "root": "/home/hsyang/workspace/20210715_cluster_gan",
+    "host": "7d2cdef3104f",
+    "username": "root",
+    "executable": "/opt/conda/envs/stylegan2/bin/python"
+}

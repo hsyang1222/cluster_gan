@@ -1,0 +1,6 @@
+
+1 6.20908784866333 0.0440942719578743 1.5667763948440552 0.5495828986167908
+Traceback (most recent call last):
+  File "/home/hsyang/workspace/20210715_cluster_gan/20210718_vanilla.py", line 292, in <module>
+    'fake_img' : [wandb.Image(get_fixed_z_image_np(netG), caption='fixed z image')]
+NameError: name 'get_fixed_z_image_np' is not defined

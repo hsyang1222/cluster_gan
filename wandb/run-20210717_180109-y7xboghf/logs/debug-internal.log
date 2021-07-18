@@ -1,0 +1,848 @@
+2021-07-17 18:01:10,778 INFO    MainThread:31081 [internal.py:wandb_internal():88] W&B internal server running at pid: 31081, started at: 2021-07-17 18:01:10.778602
+2021-07-17 18:01:10,782 INFO    WriterThread:31081 [datastore.py:open_for_write():80] open: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/run-y7xboghf.wandb
+2021-07-17 18:01:10,783 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: check_version
+2021-07-17 18:01:10,785 DEBUG   SenderThread:31081 [sender.py:send():179] send: header
+2021-07-17 18:01:10,785 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: check_version
+2021-07-17 18:01:11,014 DEBUG   SenderThread:31081 [sender.py:send():179] send: run
+2021-07-17 18:01:11,289 INFO    SenderThread:31081 [dir_watcher.py:__init__():168] watching files in: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files
+2021-07-17 18:01:11,289 INFO    SenderThread:31081 [sender.py:_start_run_threads():716] run started: y7xboghf with start time 1626544870
+2021-07-17 18:01:11,290 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:01:11,290 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:01:11,290 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: run_start
+2021-07-17 18:01:11,299 DEBUG   HandlerThread:31081 [meta.py:__init__():39] meta init
+2021-07-17 18:01:11,299 DEBUG   HandlerThread:31081 [meta.py:__init__():53] meta init done
+2021-07-17 18:01:11,300 DEBUG   HandlerThread:31081 [meta.py:probe():210] probe
+2021-07-17 18:01:11,309 DEBUG   HandlerThread:31081 [meta.py:_setup_git():200] setup git
+2021-07-17 18:01:11,326 DEBUG   HandlerThread:31081 [meta.py:_setup_git():207] setup git done
+2021-07-17 18:01:11,326 DEBUG   HandlerThread:31081 [meta.py:_save_pip():57] save pip
+2021-07-17 18:01:11,327 DEBUG   HandlerThread:31081 [meta.py:_save_pip():71] save pip done
+2021-07-17 18:01:11,327 DEBUG   HandlerThread:31081 [meta.py:_save_conda():78] save conda
+2021-07-17 18:01:12,294 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:01:12,294 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/requirements.txt
+2021-07-17 18:01:12,295 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/conda-environment.yaml
+2021-07-17 18:01:13,872 DEBUG   HandlerThread:31081 [meta.py:_save_conda():86] save conda done
+2021-07-17 18:01:13,872 DEBUG   HandlerThread:31081 [meta.py:probe():252] probe done
+2021-07-17 18:01:13,878 DEBUG   SenderThread:31081 [sender.py:send():179] send: files
+2021-07-17 18:01:13,878 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-17 18:01:13,887 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:01:13,887 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:01:14,296 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/conda-environment.yaml
+2021-07-17 18:01:14,296 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-metadata.json
+2021-07-17 18:01:14,296 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_created():216] file/dir created: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:01:29,133 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:01:29,134 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:01:39,762 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:01:39,763 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:01:39,767 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:01:40,309 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:01:40,414 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:01:42,310 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:01:44,350 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:01:44,351 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:01:59,582 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:01:59,582 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:02:05,829 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:02:05,830 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:02:05,832 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:02:06,321 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:02:08,323 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:02:11,500 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:02:14,830 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:02:14,830 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:02:30,064 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:02:30,064 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:02:31,841 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:02:31,842 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:02:31,845 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:02:32,336 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:02:34,337 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:02:42,300 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:02:45,313 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:02:45,313 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:02:57,810 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:02:57,811 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:02:57,814 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:02:58,348 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:03:00,349 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:03:00,536 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:03:00,537 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:03:13,223 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:03:15,774 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:03:15,774 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:03:23,898 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:03:23,899 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:03:23,900 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:03:24,360 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:03:26,361 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:03:30,993 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:03:30,993 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:03:44,324 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:03:46,225 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:03:46,225 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:03:50,281 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:03:50,282 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:03:50,285 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:03:50,372 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:03:52,373 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:04:01,450 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:04:01,450 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:04:15,415 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:04:16,415 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:04:16,416 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:04:16,417 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:04:16,670 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:04:16,670 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:04:17,384 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:04:18,385 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:04:31,895 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:04:31,896 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:04:42,518 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:04:42,519 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:04:42,524 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:04:43,397 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:04:44,397 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:04:46,433 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:04:47,126 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:04:47,127 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:05:02,361 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:05:02,361 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:05:08,923 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:05:08,924 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:05:08,928 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:05:09,409 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:05:10,410 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:05:17,587 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:05:17,588 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:05:17,810 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:05:32,813 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:05:32,813 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:05:34,794 INFO    Thread-11 :31081 [upload_job.py:push():137] Uploaded file /tmp/tmp5ggy1osowandb/1gls3iza-wandb-metadata.json
+2021-07-17 18:05:35,037 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:05:35,037 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:05:35,038 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:05:35,421 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:05:36,421 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:05:48,051 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:05:48,051 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:05:48,750 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:06:01,110 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:06:01,111 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:06:01,112 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:06:01,432 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:06:02,433 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:06:03,275 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:06:03,275 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:06:18,507 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:06:18,507 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:06:20,090 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:06:27,216 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:06:27,217 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:06:27,218 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:06:27,443 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:06:28,444 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:06:33,725 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:06:33,726 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:06:48,970 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:06:48,970 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:06:50,995 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:06:53,292 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:06:53,292 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:06:53,293 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:06:53,456 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:06:55,457 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:07:04,198 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:07:04,199 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:07:19,425 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:07:19,425 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:07:19,426 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:07:19,445 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:07:19,446 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:07:19,469 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:07:21,470 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:07:21,864 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:07:34,681 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:07:34,681 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:07:45,564 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:07:45,565 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:07:45,567 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:07:46,482 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:07:47,483 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:07:49,919 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:07:49,919 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:07:52,736 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:08:05,151 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:08:05,152 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:08:11,569 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:08:11,570 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:08:11,571 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:08:12,495 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:08:13,495 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:08:22,056 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:08:22,056 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:08:23,530 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:08:37,277 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:08:37,277 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:08:37,644 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:08:37,644 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:08:37,645 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:08:38,507 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:08:39,508 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:08:52,509 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:08:52,510 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:08:54,430 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:09:03,630 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:09:03,631 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:09:03,631 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:09:04,523 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:09:05,524 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:09:07,736 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:09:07,737 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:09:22,973 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:09:22,974 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:09:25,296 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:09:29,708 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:09:29,708 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:09:29,710 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:09:30,536 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:09:31,537 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:09:38,190 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:09:38,191 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:09:53,429 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:09:53,430 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:09:55,945 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:09:55,946 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:09:55,951 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:09:56,519 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:09:56,548 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:09:57,548 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:10:08,645 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:10:08,646 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:10:22,120 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:10:22,120 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:10:22,121 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:10:22,560 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:10:23,561 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:10:23,863 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:10:23,864 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:10:27,480 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:10:39,093 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:10:39,093 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:10:48,041 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:10:48,042 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:10:48,043 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:10:48,574 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:10:49,574 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:10:54,314 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:10:54,315 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:10:58,345 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:11:09,558 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:11:09,558 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:11:14,145 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:11:14,146 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:11:14,147 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:11:14,586 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:11:15,586 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:11:24,777 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:11:24,778 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:11:29,087 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:11:40,006 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:11:40,006 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:11:40,227 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:11:40,227 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:11:40,228 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:11:40,599 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:11:41,599 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:11:55,229 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:11:55,230 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:11:59,946 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:12:06,228 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:12:06,229 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:12:06,230 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:12:06,612 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:12:07,612 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:12:10,481 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:12:10,481 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:12:25,706 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:12:25,706 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:12:30,673 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:12:32,219 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:12:32,220 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:12:32,220 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:12:32,624 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:12:33,624 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:12:40,931 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:12:40,932 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:12:56,162 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:12:56,163 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:12:58,163 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:12:58,165 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:12:58,166 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:12:58,638 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:12:59,638 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:13:01,612 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:13:11,384 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:13:11,385 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:13:24,260 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:13:24,261 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:13:24,262 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:13:24,651 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:13:25,651 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:13:26,606 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:13:26,607 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:13:32,336 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:13:41,827 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:13:41,828 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:13:50,386 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:13:50,387 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:13:50,388 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:13:50,664 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:13:51,665 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:13:57,063 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:13:57,064 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:14:03,140 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:14:12,290 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:14:12,290 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:14:16,336 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:14:16,337 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:14:16,337 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:14:16,677 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:14:17,678 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:14:27,506 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:14:27,507 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:14:33,764 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:14:42,450 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:14:42,451 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:14:42,452 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:14:42,690 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:14:42,729 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:14:42,730 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:14:43,691 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:14:57,949 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:14:57,949 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:15:04,459 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:15:08,492 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:15:08,493 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:15:08,494 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:15:08,704 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:15:09,705 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:15:13,185 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:15:13,186 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:15:28,407 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:15:28,408 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:15:34,517 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:15:34,518 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:15:34,523 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:15:34,718 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:15:35,087 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:15:35,718 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:15:43,644 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:15:43,644 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:15:58,867 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:15:58,868 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:16:00,607 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:16:00,608 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:16:00,609 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:16:00,732 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:16:01,732 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:16:05,929 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:16:14,091 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:16:14,092 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:16:26,628 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:16:26,629 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:16:26,630 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:16:26,745 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:16:27,746 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:16:29,316 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:16:29,317 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:16:36,661 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:16:44,539 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:16:44,539 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:16:52,703 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:16:52,704 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:16:52,705 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:16:52,759 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:16:53,759 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:16:59,768 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:16:59,769 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:17:07,475 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:17:15,009 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:17:15,009 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:17:18,648 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:17:18,649 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:17:18,651 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:17:18,772 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:17:19,773 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:17:30,255 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:17:30,255 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:17:38,434 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:17:38,605 ERROR   FileStreamThread:31081 [file_stream.py:_thread_except_body():311] generic exception in filestream thread
+Traceback (most recent call last):
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 307, in _thread_except_body
+    self._thread_body()
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 276, in _thread_body
+    self._send(ready_chunks)
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 347, in _send
+    self._handle_response(
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 320, in _handle_response
+    raise response
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 419, in request_with_retry
+    response.raise_for_status()
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/files/hsyang1222/cluster_gan/y7xboghf/file_stream
+2021-07-17 18:17:44,651 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:17:44,652 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:17:44,652 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:17:44,785 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:17:45,510 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:17:45,511 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:17:45,785 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:18:00,729 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:18:00,729 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:18:09,231 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:18:10,669 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:18:10,670 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:18:10,671 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:18:10,797 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:18:11,798 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:18:15,949 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:18:15,949 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:18:31,177 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:18:31,177 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:18:36,895 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:18:36,895 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:18:36,897 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:18:37,811 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:18:37,811 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:18:39,925 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:18:46,425 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:18:46,426 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:19:01,651 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:19:01,651 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:19:02,971 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:19:02,971 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:19:02,972 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:19:03,824 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:19:03,825 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:19:10,645 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:19:16,874 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:19:16,874 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:19:29,014 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:19:29,015 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:19:29,016 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:19:29,837 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:19:29,837 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:19:32,104 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:19:32,104 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:19:41,712 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:19:47,324 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:19:47,324 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:19:55,080 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:19:55,081 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:19:55,082 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:19:55,852 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:19:56,852 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:20:02,554 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:20:02,555 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:20:12,588 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:20:17,824 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:20:17,824 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:20:21,023 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:20:21,024 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:20:21,025 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:20:21,864 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:20:22,865 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:20:33,071 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:20:33,072 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:20:43,510 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:20:47,088 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:20:47,088 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:20:47,089 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:20:47,877 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:20:48,300 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:20:48,300 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:20:48,877 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:21:03,519 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:21:03,520 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:21:13,135 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:21:13,136 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:21:13,136 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:21:13,890 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:21:14,437 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:21:14,890 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:21:18,741 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:21:18,741 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:21:33,960 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:21:33,961 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:21:39,128 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:21:39,129 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:21:39,130 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:21:39,902 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:21:40,903 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:21:45,536 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:21:49,188 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:21:49,188 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:22:04,420 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:22:04,421 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:22:05,146 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:22:05,146 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:22:05,147 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:22:05,915 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:22:06,916 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:22:16,513 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:22:19,635 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:22:19,635 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:22:31,173 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:22:31,174 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:22:31,175 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:22:31,928 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:22:32,928 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:22:34,859 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:22:34,860 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:22:47,295 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:22:50,093 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:22:50,094 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:22:57,201 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:22:57,202 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:22:57,202 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:22:57,940 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:22:58,941 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:23:05,321 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:23:05,321 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:23:17,959 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:23:20,542 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:23:20,542 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:23:23,202 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:23:23,203 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:23:23,204 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:23:23,953 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:23:24,953 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:23:35,784 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:23:35,784 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:23:48,795 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:23:49,084 DEBUG   SenderThread:31081 [sender.py:send():179] send: history
+2021-07-17 18:23:49,085 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:23:49,086 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:23:49,965 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:23:50,965 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:23:51,001 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:23:51,002 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:24:06,232 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-17 18:24:06,233 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: stop_status
+2021-07-17 18:24:12,524 WARNING MainThread:31081 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-07-17 18:24:13,977 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:24:15,475 DEBUG   SenderThread:31081 [sender.py:send():179] send: telemetry
+2021-07-17 18:24:15,476 DEBUG   SenderThread:31081 [sender.py:send():179] send: exit
+2021-07-17 18:24:15,476 INFO    SenderThread:31081 [sender.py:send_exit():287] handling exit code: 255
+2021-07-17 18:24:15,477 INFO    SenderThread:31081 [sender.py:send_exit():295] send defer
+2021-07-17 18:24:15,477 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-17 18:24:15,478 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: poll_exit
+2021-07-17 18:24:15,478 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: defer
+2021-07-17 18:24:15,479 INFO    HandlerThread:31081 [handler.py:handle_request_defer():141] handle defer: 0
+2021-07-17 18:24:15,479 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: defer
+2021-07-17 18:24:15,479 INFO    SenderThread:31081 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-07-17 18:24:15,479 INFO    SenderThread:31081 [sender.py:transition_state():308] send defer: 1
+2021-07-17 18:24:15,480 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: defer
+2021-07-17 18:24:15,480 INFO    HandlerThread:31081 [handler.py:handle_request_defer():141] handle defer: 1
+2021-07-17 18:24:15,602 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: defer
+2021-07-17 18:24:15,602 INFO    SenderThread:31081 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-07-17 18:24:15,602 INFO    SenderThread:31081 [sender.py:transition_state():308] send defer: 2
+2021-07-17 18:24:15,602 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-17 18:24:15,603 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: poll_exit
+2021-07-17 18:24:15,604 DEBUG   SenderThread:31081 [sender.py:send():179] send: stats
+2021-07-17 18:24:15,604 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: defer
+2021-07-17 18:24:15,605 INFO    HandlerThread:31081 [handler.py:handle_request_defer():141] handle defer: 2
+2021-07-17 18:24:15,605 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: defer
+2021-07-17 18:24:15,605 INFO    SenderThread:31081 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-07-17 18:24:15,605 INFO    SenderThread:31081 [sender.py:transition_state():308] send defer: 3
+2021-07-17 18:24:15,606 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: defer
+2021-07-17 18:24:15,606 INFO    HandlerThread:31081 [handler.py:handle_request_defer():141] handle defer: 3
+2021-07-17 18:24:15,607 DEBUG   SenderThread:31081 [sender.py:send():179] send: summary
+2021-07-17 18:24:15,607 INFO    SenderThread:31081 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-17 18:24:15,608 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: defer
+2021-07-17 18:24:15,608 INFO    SenderThread:31081 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-07-17 18:24:15,608 INFO    SenderThread:31081 [sender.py:transition_state():308] send defer: 4
+2021-07-17 18:24:15,608 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: defer
+2021-07-17 18:24:15,608 INFO    HandlerThread:31081 [handler.py:handle_request_defer():141] handle defer: 4
+2021-07-17 18:24:15,609 DEBUG   SenderThread:31081 [sender.py:send_request():193] send_request: defer
+2021-07-17 18:24:15,609 INFO    SenderThread:31081 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-07-17 18:24:15,706 DEBUG   HandlerThread:31081 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-17 18:24:15,860 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:24:15,860 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:24:15,978 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/wandb-summary.json
+2021-07-17 18:24:15,978 INFO    Thread-8  :31081 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/files/output.log
+2021-07-17 18:24:17,357 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:24:17,357 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:24:18,777 WARNING MainThread:31081 [internal.py:wandb_internal():147] Internal process interrupt: 2
+2021-07-17 18:24:18,777 ERROR   MainThread:31081 [internal.py:wandb_internal():150] Internal process interrupted.
+2021-07-17 18:24:19,608 INFO    WriterThread:31081 [datastore.py:close():288] close: /home/hsyang/workspace/20210715_cluster_gan/wandb/run-20210717_180109-y7xboghf/run-y7xboghf.wandb
+2021-07-17 18:24:19,711 INFO    HandlerThread:31081 [handler.py:finish():638] shutting down handler
+2021-07-17 18:24:19,736 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:24:19,737 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:24:19,737 ERROR   SenderThread:31081 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 133, in execute
+    six.reraise(*sys.exc_info())
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/six.py", line 719, in reraise
+    raise value
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 127, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/opt/conda/envs/stylegan2/lib/python3.9/site-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2021-07-17 18:24:24,014 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:24:24,014 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:24:33,056 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:24:33,057 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:24:51,997 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:24:51,997 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:25:26,401 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:25:26,402 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:26:40,620 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:26:40,621 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:29:02,808 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:29:02,809 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:34:13,342 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:34:13,343 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:40:03,681 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:40:03,681 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:45:32,049 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:45:32,050 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:51:15,996 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:51:15,997 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 18:56:23,120 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 18:56:23,120 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:02:32,696 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:02:32,697 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:08:10,711 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:08:10,712 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:13:35,670 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:13:35,670 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:19:41,693 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:19:41,694 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:25:07,994 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:25:07,995 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:30:11,563 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:30:11,564 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:36:02,093 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:36:02,094 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:41:53,117 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:41:53,117 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:47:29,224 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:47:29,225 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:52:41,770 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:52:41,770 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 19:58:31,849 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 19:58:31,849 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:03:48,390 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:03:48,391 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:09:46,437 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:09:46,438 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:14:49,487 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:14:49,487 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:20:07,571 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:20:07,572 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:26:04,938 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:26:04,939 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:31:25,191 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:31:25,191 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:37:37,658 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:37:37,658 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:43:12,816 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:43:12,817 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:48:20,320 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:48:20,321 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:54:13,528 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:54:13,529 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 20:59:34,716 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 20:59:34,716 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:04:51,312 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:04:51,312 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:09:53,932 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:09:53,932 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:15:21,834 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:15:21,834 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:20:50,101 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:20:50,101 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:25:54,323 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:25:54,323 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:31:10,467 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:31:10,468 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:36:17,287 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:36:17,287 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:41:39,920 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:41:39,921 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:47:47,447 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:47:47,448 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:53:28,314 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:53:28,315 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 21:58:33,231 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 21:58:33,232 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 22:04:28,036 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 22:04:28,037 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 22:10:19,775 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 22:10:19,775 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 22:16:00,027 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 22:16:00,028 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 22:22:02,854 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 22:22:02,855 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 22:28:15,804 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 22:28:15,805 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 22:34:17,274 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 22:34:17,275 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 22:40:29,488 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 22:40:29,489 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 22:46:05,869 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 22:46:05,870 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 22:51:14,963 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 22:51:14,964 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 22:56:20,089 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 22:56:20,089 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:01:51,634 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:01:51,634 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:07:01,569 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:07:01,569 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:12:44,292 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:12:44,292 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:18:47,296 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:18:47,297 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:24:25,705 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:24:25,706 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:30:12,531 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:30:12,531 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:35:32,507 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:35:32,507 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:41:39,798 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:41:39,799 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:47:39,660 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:47:39,660 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:52:55,503 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:52:55,503 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-17 23:57:58,396 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-17 23:57:58,397 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:03:02,441 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:03:02,442 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:09:07,577 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:09:07,578 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:14:24,435 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:14:24,436 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:20:31,119 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:20:31,119 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:26:09,116 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:26:09,117 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:31:17,578 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:31:17,579 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:37:29,908 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:37:29,908 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:42:33,260 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:42:33,261 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:48:17,896 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:48:17,897 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:53:40,482 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:53:40,482 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 00:59:37,050 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 00:59:37,050 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:05:11,171 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:05:11,172 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:11:03,636 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:11:03,636 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:16:08,665 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:16:08,666 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:21:25,177 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:21:25,178 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:26:41,733 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:26:41,733 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:31:50,793 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:31:50,794 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:37:54,560 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:37:54,561 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:43:03,627 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:43:03,627 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:48:30,868 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:48:30,869 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:53:48,720 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:53:48,720 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 01:59:03,261 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 01:59:03,262 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 02:04:36,689 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 02:04:36,689 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 02:09:43,119 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 02:09:43,120 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 02:15:30,584 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 02:15:30,584 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 02:21:33,203 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 02:21:33,204 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 02:26:59,283 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 02:26:59,283 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 02:33:06,721 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 02:33:06,722 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 02:38:56,061 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 02:38:56,062 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 02:44:01,303 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 02:44:01,303 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 02:49:34,002 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 02:49:34,003 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 02:55:38,877 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 02:55:38,878 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:01:05,036 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:01:05,036 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:06:08,577 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:06:08,577 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:11:50,324 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:11:50,325 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:17:28,093 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:17:28,093 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:23:34,539 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:23:34,540 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:29:23,769 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:29:23,770 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:35:08,376 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:35:08,376 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:40:45,790 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:40:45,791 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:46:20,769 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:46:20,770 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:52:04,703 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:52:04,703 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 03:57:10,003 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 03:57:10,004 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:03:08,750 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:03:08,751 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:08:50,140 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:08:50,141 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:14:42,254 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:14:42,254 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:20:20,832 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:20:20,833 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:25:44,560 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:25:44,561 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:31:04,547 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:31:04,548 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:36:34,242 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:36:34,243 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:42:34,827 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:42:34,828 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:47:50,084 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:47:50,085 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:53:02,288 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:53:02,289 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 04:59:12,203 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 04:59:12,204 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 05:05:19,762 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 05:05:19,762 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 05:10:47,883 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 05:10:47,884 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 05:16:51,991 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 05:16:51,991 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 05:22:15,190 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 05:22:15,190 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-18 05:27:17,198 ERROR   SenderThread:31081 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-18 05:27:17,198 ERROR   SenderThread:31081 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '382399-y7xboghf' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
