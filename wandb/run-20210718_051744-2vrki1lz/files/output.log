@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/home/hsyang/workspace/20210715_cluster_gan/20210719_cluster_gan.py", line 377, in <module>
-    main(args)
-  File "/home/hsyang/workspace/20210715_cluster_gan/20210719_cluster_gan.py", line 332, in main
-    matric = inference_matric(score_model, [netG, netD, cd_net], device)
-  File "/home/hsyang/workspace/20210715_cluster_gan/20210719_cluster_gan.py", line 195, in inference_matric
-    score_model = score_model.to(device)
-AttributeError: 'GenerativeModelScore' object has no attribute 'to'

@@ -1,6 +1,0 @@
-
-1 6.18058967590332 0.05198049917817116 1.5438728332519531 0.5242788791656494
-Traceback (most recent call last):
-  File "/home/hsyang/workspace/20210715_cluster_gan/20210718_vanilla.py", line 284, in <module>
-    'real_assign_mean' : torch.mean(real_argmax),
-RuntimeError: Can only calculate the mean of floating types. Got Long instead.
